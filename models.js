@@ -1,6 +1,6 @@
 export  var  Car = [
     { model: "Bmw", price: "5000$", country: "Armenia", picture: "img/bmw.png", id: 1 },
-    { model: "Mercedes-Benz", price: "8000$", country: "Georgia", picture: "img/m.png", id: 1 },
+    { model: "Mercedes-Benz", price: "8000$", country: "Georgia", picture: "img/m.png", id: 2 },
     { model: "Audi", price: "3500$", country: "Albania", picture: "img/audi.png", id: 3 },
     { model: "Opel", price: "1500$", country: "Francia", picture: "img/opel.png", id: 4 },
     { model: "Ferrari", price: "15000$", country: "Francia", picture: "img/ferari.png", id: 5 },

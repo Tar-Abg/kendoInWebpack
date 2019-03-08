@@ -60,10 +60,9 @@ $("ul").kendoMenu({
     ],
   });
 
-  var div = document.createElement('div');
+var div = document.createElement('div');
 document.body.appendChild(div);
-$("div").addClass("grid")
-
+$("div").addClass("grid");
 $("div").kendoGrid({
     columns: [
       { title: "id", field: "id" },
@@ -73,7 +72,7 @@ $("div").kendoGrid({
       {
         title: "img",
         field: "picture",
-        template: '<img src="#= picture #" alt="image"  class="img"/>'
+        template: '<img src="#= picture #" alt="image"  class="img"/>',
       },
       { command: "edit" }
     ],
