@@ -3,7 +3,8 @@ import * as $ from "jquery";
 // require ("jquery") I wont like this, but it's not working 
 import { Car } from "../models";
 require ("@progress/kendo-ui/js/kendo.menu.js");
-require ("@progress/kendo-ui/js/kendo.grid");
+require ("@progress/kendo-ui/js/kendo.grid.js");
+
 
 
 

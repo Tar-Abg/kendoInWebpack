@@ -10,10 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "repository": {
+      "name": "kendoGrid",
+      "type": "git",
+      "url": "https://github.com/Tar-Abg/kendoGrid"
+    },
     "@progress/kendo-ui": "^2019.1.307",
     "jquery": "^3.3.1",
     "kendo-ui-core": "^2019.1.307"
-    
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
