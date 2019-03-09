@@ -12,8 +12,8 @@
   "dependencies": {
     "@progress/kendo-ui": "^2019.1.307",
     "jquery": "^3.3.1",
-    "kendo-ui-core": "^2019.1.307"
-    
+    "kendo-ui-core": "^2019.1.307",
+    "module2": "file:../module2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
