@@ -1,16 +1,9 @@
 import  './css/style.css';
-import * as $ from "jquery";
-import { Car } from "../models";
-
-
-
-
+import { Car } from "./models";
 import { createNavabr } from  "kendonavbar";
-import { createGrid } from "module2";
+import { createGrid } from "kendoGridModule";
 
-
-
-createNavabr(document.body)
-createGrid(document.body, Car)
+createNavabr(document.body);
+createGrid(document.body, Car);
   
   

@@ -13,13 +13,10 @@
     "@progress/kendo-ui": "^2019.1.307",
     "jquery": "^3.3.1",
     "kendo-ui-core": "^2019.1.307",
-    "kendonavbar": "github:Tar-Abg/kendoNavbar",
-    "module2": "github:Tar-Abg/kendoGridModule"
+    "kendoGridModule": "github:Tar-Abg/kendoGridModule",
+    "kendonavbar": "github:Tar-Abg/kendoNavbar"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
     "css-loader": "^2.1.1",
     "path": "^0.12.7",
     "style-loader": "^0.23.1",
