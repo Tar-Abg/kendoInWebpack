@@ -31,7 +31,7 @@ export var dataMenu = [
           { text: "GLE" },
           { text: "GLE 2019" },
           ],
-      }
+      },
       ],
   },
   {
@@ -45,10 +45,8 @@ export var dataMenu = [
   },
   {
       text: "Contact",
-      url: "#"
   },
   {
       text: "About",
-      url: "#grid"
   }
   ]

@@ -14,7 +14,8 @@
     "jquery": "^3.3.1",
     "kendo-ui-core": "^2019.1.307",
     "kendoGridModule": "github:Tar-Abg/kendoGridModule",
-    "kendonavbar": "github:Tar-Abg/kendoNavbar"
+    "kendonavbar": "github:Tar-Abg/kendoNavbar",
+    "npm-ts-example": "github:Tar-Abg/kendo-MVVM"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
