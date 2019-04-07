@@ -9,7 +9,7 @@ export  var  cars = [
     { model: "mercedes_Benz-Cl", price: "15500$", country: "Germania", picture: "img/cl.png", id: 8 }
   ];
 
-export var dataMenu = [
+export var  dataMenu = [
   {
       text: "Model",
       items: [
