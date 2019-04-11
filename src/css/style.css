@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+.kendo:first-of-type{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.kendo:nth-of-type(2){
+    position: absolute;
+    top: 350px;
+    margin-left: 100px;
+}
+.kendo:nth-of-type(2) th {
+    color:#02536e
+}
