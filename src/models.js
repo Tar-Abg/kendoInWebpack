@@ -21,7 +21,7 @@ export  var  cars = [
 
   export var dataMenu = [
     {
-        text: "", imageUrl: "https://img.icons8.com/ios-glyphs/30/000000/home.png",
+        text: "<span  data-icon='arrow-e'>home</span>",encoded: false,
         url: "#grid",
         cssClass:"menuItem"
     },
@@ -51,7 +51,7 @@ export  var  cars = [
         cssClass:"menuItem"
     },
     {
-        text: "", imageUrl:"https://img.icons8.com/ios-glyphs/30/000000/question-mark.png",
+        text: "", text: "<span class=\"k-icon k-i-question k-icon-64\"></span>",encoded: false,
         url: "#",
         cssClass:"last-item"
     }
@@ -59,7 +59,7 @@ export  var  cars = [
 ];
 export var secndMenu =  [
     {
-        text: "", imageUrl: "https://img.icons8.com/ios-glyphs/60/000000/restart.png",
+        text: "<span class=\"k-icon k-i-reload k-icon-64 active\"></span>",encoded: false,
         url: "#grid",
         cssClass:"sencndMenuItem"
     },
