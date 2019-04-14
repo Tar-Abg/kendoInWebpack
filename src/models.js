@@ -9,9 +9,9 @@ export  var  cars = [
     // { model: "FINEO_101_SOGEEU", price: "", country: "", picture: "", id: "" }
   ];
   export  var  dataForSecndGrid = [
-    { model: "FINEO_101_SOGEEU", price: "599 099.5", country: "599 099.5", picture: "599 099.5", id: "599 099.5" },
+    { model: "FINEO_101_SOGEEU", price: "599099.5", country: "599099.5", picture: "599 099.5", id: "599 099.5" },
     { model: "FINEO_102_SOGEEU", price: "0.00", country: "0.00", picture: "0.00", id: "0.00" },
-    { model: "FINEO_100_SOGEEU", price: "-555. 44.5", country: "-555. 44.5", picture: "-555. 44.5", id: "-555. 44.5" },
+    { model: "FINEO_100_SOGEEU", price: "-555.44", country: "-555.44", picture: "-555.44", id: "-555.44" },
     { model: "FINEO_100_SOGEEU", price: "0.00", country: "0.00", picture: "0.00", id: "0.00" },
     { model: "FINEO_200_SOGEEU", price: "162 25.44", country: "162 25.44", picture: "162 25.44", id: "162 25.44" },
     { model: "FINEO_200_SOGEEU", price: "1 000 00", country: "1 000 00", picture: "1 000 00", id: "1 000 00" },
@@ -94,11 +94,26 @@ export var gridColumnToo = [
         style: "color: hsl(208, 98%, 20%); width:100px "
         } 
     },
-    { title: "04/04/19", field: "id" },
-    { title: "05/04/19", field: "price" },
-    { title: "06/04/19", field: "country" },
-    { title: "07/04/19", field: "country" },
-    { title: "08/04/19", field: "country" }
+    { title: "04/04/19", field: "id", attributes: {
+        "class": "gridCellValue",
+        }  
+    },
+    { title: "05/04/19", field: "price", attributes: {
+        "class": "gridCellValue",
+        }
+    },
+    { title: "06/04/19", field: "country", attributes: {
+        "class": "gridCellValue",
+        }
+    },
+    { title: "07/04/19", field: "country", attributes: {
+        "class": "gridCellValue",
+        }
+    },
+    { title: "08/04/19", field: "country", attributes: {
+        "class": "gridCellValue",
+        }
+    }
 ];
 
 export var gridDataCurrency = [
