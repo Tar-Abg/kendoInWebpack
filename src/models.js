@@ -99,5 +99,20 @@ export var gridColumnToo = [
     { title: "06/04/19", field: "country" },
     { title: "07/04/19", field: "country" },
     { title: "08/04/19", field: "country" }
-]
+];
+
+export var gridDataCurrency = [
+    {country:"src/assets/euro.png", value:"1.000", name:"EUR"},
+    {country:"src/assets/kh.png", value:"4 569.847", name:"KHR"},
+    {country:"src/assets/usd.png", value:"1.336", name:"USD"},
+];
+
+export var gridColumnCurrency = [
+    { field: "country", template: '<img src="#= country #" alt="image"  class="imge"/> <span class="cours"> #= name # </span>'  },
+    { field: "value",
+        attributes: {
+            "class": "CoursValue",
+        } 
+    },
+];
 

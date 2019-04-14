@@ -15,6 +15,8 @@
     "kendo-ui-core": "^2019.1.307",
     "kendoGrid": "github:Tar-Abg/kendo-MVVM",
     "kendoGridModule": "github:Tar-Abg/kendoGridModule",
+    "kendocomponentempty": "github:Tar-Abg/empty-componnent",
+    "kendogridcurrency": "github:Tar-Abg/-kendo-grid-for-currency",
     "kendonavbar": "github:Tar-Abg/kendoNavbar"
   },
   "devDependencies": {
